@@ -20,6 +20,7 @@ nav{
 
 .logo{
     color:white;
+    font-size: 20px;
 }
 .logo >span{
     color: orange;
@@ -140,14 +141,39 @@ nav{
   width:100%;
 }
 
-.button{
+.main{
     text-align: center;
     align-items: center;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;    
 }
 
-.btn{
+.main >img{
+    width: 22%;
+    height: 50%;    
+    border-radius: 50%;  
+    margin-top:80px;  
+}
+
+.main >h2{
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+.main > h2 span{
+    color: orange;
+}
+
+.main >p{
+    color: white;
+    font-size: 20px;
+}
+
+
+/* .btn{
     justify-content: center;
     text-align: center;
     background: #f563a9;
@@ -164,7 +190,8 @@ nav{
 .btn:hover{
     color: aquamarine;
     cursor: pointer;
-}
+} */
+
 /* about page */
 .about{
     width: 100%;
