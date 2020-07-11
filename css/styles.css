@@ -215,12 +215,16 @@ nav{
     text-transform: uppercase;
 }
 .column{
-    width: 45%;
+    width: 33%;
     float: left; 
-    padding: 10px; 
-    margin-left:20px;
+    padding: 20px; 
     line-height: 25px;
     letter-spacing: 2px;     
+}
+
+.column >h1{
+    color: white;
+    text-align: center;
 }
 
 @media screen and (max-width:768px){
