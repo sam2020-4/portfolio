@@ -205,8 +205,11 @@ nav{
  .education{
     float: left;
     padding: 20px;    
-    background: rgb(185, 181, 187);
-    width: 100%;    
+    background-image: url('../images/interlinked-lines-on-blurry-.jpg');
+    width: 100%; 
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;   
 }
 
 .education >h1{
@@ -215,9 +218,9 @@ nav{
     text-transform: uppercase;
 }
 .column{
-    width: 33%;
+    width: 33.3%;
     float: left; 
-    padding: 20px; 
+    padding: 50px; 
     line-height: 25px;
     letter-spacing: 2px;     
 }
@@ -225,6 +228,7 @@ nav{
 .column >h1{
     color: white;
     text-align: center;
+    text-decoration: underline;
 }
 
 @media screen and (max-width:768px){
