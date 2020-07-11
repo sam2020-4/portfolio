@@ -270,22 +270,31 @@ nav{
     padding: 16px;
     text-align: center;    
   }
-
+  
   .content >img{
       width: 40%;
       height: 40%;
   }
 
 /* styling projects */
+.projects{
+    background:grey;
+}
+
 .projects >h1{
     color: red;
     text-transform: uppercase;
     text-align: center;
 }
 
+.projects >p{
+    text-align: center;
+    padding: 8px;
+}
+
 .prj-column{
     float: left;
-    width: 30%;
+    width: 33.3%;
     padding: 20px;
 }
 
@@ -298,12 +307,11 @@ nav{
 .prj-content >img{
     width: 100%;
     height: 150%;
-
 }
 
-.prj-content >p, li,h3{
+/* .prj-content > li,h3{
     text-align: center;
-}
+} */
 
 /* styling button for project */
 .btn{
