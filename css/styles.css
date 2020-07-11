@@ -353,8 +353,9 @@ nav{
  .footer{
     background-color: rgb(92, 94, 94);
     width: 100%;
-    height: 35vh; 
-    padding: 20px; 
+    height: auto; 
+    padding: 30px; 
+    align-items: centre;
 }
 .footer >h2{
     text-align: center;
@@ -367,6 +368,19 @@ nav{
     justify-content: space-between;
 }
 
+#cont{
+    padding: 20px;
+    line-height: 30px;
+    width: 50%;
+    font-size: 17px;
+    text-align: center;
+}
+
+.cont:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 .footer-hr{
     background-color:orange;
     height: 2px;
@@ -378,3 +392,11 @@ nav{
     color: #fff;
     padding: 20px;
 } 
+
+@media screen and (max-width: 600px) {
+    .cont {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
