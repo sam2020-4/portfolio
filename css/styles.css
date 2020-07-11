@@ -282,7 +282,7 @@ nav{
 }
 
 .projects >h1{
-    color: red;
+    color:black;
     text-transform: uppercase;
     text-align: center;
 }
@@ -309,10 +309,6 @@ nav{
     height: 150%;
 }
 
-/* .prj-content > li,h3{
-    text-align: center;
-} */
-
 /* styling button for project */
 .btn{
     border: none;
@@ -322,6 +318,7 @@ nav{
     text-align: center;
     cursor: pointer;
     width: 100%;
+    font-size: 17px;
 }
 
 .btn:hover{
