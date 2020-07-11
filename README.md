@@ -1,6 +1,6 @@
 # portfolio
 
-#My portfolio to sell me to the job market, Friday,10 2020:
+#My portfolio to sell me to the job market, Friday 10th, July 2020:
 
 ## Developed my matata Samuel
 
@@ -12,7 +12,7 @@ This is basically a portfolio website containing all about me i.e who i am, Educ
     * I added the changes as i commit to the git
     * I hosted the site to github
     
-    *******live link for the system: 
+    *******live link for the system:https://sam2020-4.github.io/portfolio/ 
 
 ## Technologies Used
       * HTML
