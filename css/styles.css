@@ -376,11 +376,6 @@ nav{
     text-align: center;
 }
 
-.cont:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 .footer-hr{
     background-color:orange;
     height: 2px;
