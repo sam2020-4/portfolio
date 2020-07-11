@@ -141,8 +141,7 @@ nav{
   background-repeat: no-repeat;
   background-position: center;
   height: 90vh;
-  width:100%;
-  
+  width:100%;  
 }
 
 .main{
@@ -160,6 +159,12 @@ nav{
     border-radius: 50%;  
     margin-top:80px;  
 }
+
+@media screen and (max-width: 600px) {
+    .main >img {
+      width: 100%;      
+    }
+  }
 
 .main >h2{
     color:white;
