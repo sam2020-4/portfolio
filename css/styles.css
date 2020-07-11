@@ -357,8 +357,8 @@ nav{
 
 
 
- /* footer styles */ */
- section.footer{
+ /* footer styles */ 
+ .footer{
     background-color: rgb(92, 94, 94);
     width: 100%;
     height: 20vh;   
@@ -370,7 +370,6 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-
 
 .footer-hr{
     background-color:orange;
