@@ -201,6 +201,39 @@ nav{
 
 }
 
+/* education styling */
+ .education{
+    float: left;
+    padding: 20px;    
+    background: rgb(185, 181, 187);
+    width: 100%;    
+}
+
+.education >h1{
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+}
+.column{
+    width: 45%;
+    float: left; 
+    padding: 10px; 
+    margin-left:20px;
+    line-height: 25px;
+    letter-spacing: 2px;     
+}
+
+@media screen and (max-width:768px){
+    .column {
+        width: 60%;
+        padding: 20px;
+    }
+}
+     
+
+
+
+
 
 
 /* footer styles */
