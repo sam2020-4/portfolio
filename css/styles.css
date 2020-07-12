@@ -375,11 +375,12 @@ nav{
 }
 
 #cont{
-    padding: 20px;
+    padding: 10px;
     line-height: 30px;
     width: 50%;
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
+
 }
 
 .fa{
