@@ -135,7 +135,7 @@ nav{
 
 /* landimg section */
 #landing-page{
-  background: url('../images/photo-1555066931-bf19f8fd1085.jpeg');
+  background: url("../images/photo-1555066931-bf19f8fd1085.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
