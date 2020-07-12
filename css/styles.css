@@ -135,11 +135,11 @@ nav{
 
 /* landimg section */
 #landing-page{
-  background: url("../images/photo-1555066931-bf19f8fd1085.jpeg");
-  background-size: cover;
+  background: url('../images/photo-1555066931-bf19f8fd1085.jpeg');
+  background-size: cover%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   height: 90vh;
   width:100%;  
 }
@@ -154,15 +154,16 @@ nav{
 }
 
 .main >img{
-    width: 22%;
-    height: 50%;    
+    width: 20%;
+    height: 45%;    
     border-radius: 50%;  
     margin-top:80px;  
 }
 
 @media screen and (max-width: 600px) {
     .main >img {
-      width: 100%;      
+      width: 35%;
+      height: 30%;      
     }
   }
 
