@@ -4,182 +4,250 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>portfolio || website</title>
+  <!-- google -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <!-- font-awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet"  type="text/css" href="css/styles.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- css -->
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/main.bundle.css" type="text/css">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"> 
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link  rel="stylesheet" href="css/scrolling-nav.css" type="text/css">
+  <link rel="stylesheet"  href="css/styles.css" type="text/css">  
 </head>
   <body>
-      <nav>
-        <div class="logo">
-           MY <span>PORTFOLIO</span>
-        </div>
-            <ul class="nav-links">
-              <li> <a href="index.html">Home</a> </li>            
-                  <li> <a href="#about">About</a></li>
-                  <li> <a href="#projects">Projects</a></li>            
-              <li> <a href="#contact">Contacts</a></li>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger logo" href="#page-top">Port<span>folio</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
           </ul>
-          <div class="burger">
-              <div class="line1"></div>
-                  <div class="line2"></div>
-              <div class="line3"></div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- landing page -->
+    <header class="landing-page header text-white d-flex align-items-center justify-content-center" id="home">
+      <div class="container text-center">
+        <div class="level">
+          <div class="level-item has-text-centered">
+              <figure class="image is-128x128 ">
+                  <img class="is-rounded" src="images/Untitled.jpg">
+              </figure>
           </div>
-      </nav> 
-
-        <!-- landing page -->    
-        <div class="main" id="landing-page">
-          <img src="./images/Untitled.jpg" alt="my-picture"> <br> 
-            <h2>i'm <span> matata samuel</span></h2> <br>
-          <p>I.C.T Specialist and Web Developer</p>
-        </div>    
-
-        <!-- about me -->
-        <div class="about" id="about">
-            <h2>personal profile</h2>        
-              <p>My name is <strong>MATATA SAMUEL</strong> result oriented <strong>I.C.T Specialist and WEB Developer</strong>. I am currently <br>
-                a student at <em><strong>Moringa School</strong></em> pursuing  a Professional Certificate in Software Development.
-            </p>         
         </div>
 
-        <!-- education section -->
-        <section class="education" >
-            <h1>education and experience</h1>
-            <div class="column">
-                <h1>Education</h1> <br>
-                <ol>
-                  <li>Currently at Moringa School</li> 
-                      <ul>
-                         <li>pursuing Professional certificate in Software Development</li>
-                    </ul> 
-                      <br>
-                        <li>NYS Engineering Institute</li>
-                    <ul>
-                      <li>Pursed DICT</li>
-                    </ul>             
-                </ol>
-            </div>
+        <div class="header-content">
+          <h3 class="text-uppercase">I'm Matata Samuel<span class="typed"></span></h3>
+          <p class="text-capitalized text-white display-4">FullStack Web Developer, IT Technician, Freelancer, Graphic Designer</p>
+           
+        </div>
+      </div>
+    </header>
 
-            <div class="column">
-              <h1>Experience</h1> <br>
-                <ol>
-                  <li>IT Technician at One-Stope Shopping center.</li><br>               
-                  <li>Internship at Kenya Broadcasting Corporation (KBC).</li>                          
-                </ol>
-            </div>
+    <!-- about -->    
+    <div class="about container animated fadeInUp mb-3 pb-3 mt-3" id="about">        
+        <h3 class="fade-up text-center text-uppercase animate__animated animate__fadeInLeft display-6 font-weight-bold">about me</h3>
+        <hr class="star-light mb-5">
+      <div class="row">        
 
-          <div class="column">
-            <h1>Interests</h1> <br>
-                <ol>
-                  <li>Love Computer Programming</li>
-                    <li>Team-Work</li>
-                        <li>Socializing</li>
-                    <li>playing football</li>
-                  <li>Adventures</li>
-                </ol>            
+        <div class="col-lg-7 ml-auto cont"> 
+          <h3 class="my-4">I'm a Fullstack Web Developer</h3>         
+          <p class="lead">Hi! My name is Matata Samuel. I am a Fullstack Web Developer, a Profesional IT Technician and a very passionate and dedicated to my work.</p>
+        
+          <div class="align-center about-bit">             
+            <a href="https://github.com/sam2020-4" type="button" class="btn btn-outline-secondary ml-0"><i class="fab fa-github-square mr-2"></i>Visit my Github</a>
           </div>
-        </section>
+        </div> 
 
-        <!-- skills section -->        
+        <div class="col-lg-5 mr-auto about-2">           
+          <h2 class="mb-2">Skills</h2>
+          <div class="subheading mb-3">Programming Languages & Tools</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item"><i class="fab fa-python"></i></li>
+            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+            <li class="list-inline-item"><i class="fab fa-angular"></i></li>                                  
+            <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>                    
+            <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+          </ul>
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+              <li>
+                  <span class="fa-li"><i class="fas fa-check"></i></span>
+                  Mobile-First, Responsive Design
+              </li>
+              <li>
+                  <span class="fa-li"><i class="fas fa-check"></i></span>
+                  Cross Browser Testing & Debugging
+              </li>
+              <li>
+                  <span class="fa-li"><i class="fas fa-check"></i></span>
+                  Cross Functional Teams
+              </li>
+              <li>
+                  <span class="fa-li"><i class="fas fa-check"></i></span>
+                  Agile Development & Scrum
+              </li>
+          </ul>           
+        </div>                
+      </div>
+    </div>
+
+    <!-- projects -->
+    <div class="jumbotron" id="projects">
+      <h3 class="text-center text-uppercase display-5" style="padding-top: 4px;" >projects</h3>
+      <hr class="star-light mb-2">
+      <p class="text-center">Below are some of my work.</p>
+      <div class="container">
+
+        <div class="row">    
+          <div class="col-md-3 p-2">
+            <div class="card mb-2 mt-2">
+              <div class="view overlay-zoom">
+                <img class="card-img-top" src="images/github.png" class="card-img-top" alt="image">
+              </div>
+            
+              <div class="card-body">
+                <h4 class="card-title">Github-Search</h4>
+                <p class="card-text">The application uses the Github API to perform searches on Github.</p>
+                <a href="https://sam2020-4.github.io/Github/" type="button" class="btn btn-outline-secondary mr-0">view-link</a> 
+              </div>
+            </div>
+          </div>  
+          
+          <!-- image 2 -->
+          <div class="col-md-3 p-2">
+            <div class="card mb-2 mt-2">
+              <div class="view overlay-zoom">
+                <img class="card-img-top" src="images/news.png" class="card-img-top" alt="image">
+              </div>
+            
+              <div class="card-body">
+                <h4 class="card-title">Newshub app</h4>
+                <p class="card-text">An application that allows users to list and preview news articles from various sources.</p>
+                <a href="https://newshub2020.herokuapp.com/" type="button" class="btn btn-outline-secondary mr-0">view-link</a> 
+              </div>
+            </div>
+          </div> 
+
+          <!-- image 3 -->
+          <div class="col-md-3 p-2">
+            <div class="card mb-2 mt-2">
+              <div class="view overlay-zoom">
+                <img class="card-img-top" src="images/gallery.png" class="card-img-top" alt="image">
+              </div>
+            
+              <div class="card-body">
+                <h4 class="card-title">Galley-View</h4>
+                <p class="card-text">A web application that displays the images for others to see and interact with.</p>
+                <a href="https://galleryhub.herokuapp.com/" type="button" class="btn btn-outline-secondary mr-0">view-link</a> 
+              </div>
+            </div>
+          </div> 
+
+          <!-- image 4 -->
+          <div class="col-md-3 p-2">
+            <div class="card mb-2 mt-2">
+              <div class="view overlay-zoom">
+                <img class="card-img-top" src="images/delani.png" class="card-img-top" alt="image">
+              </div>
+            
+              <div class="card-body">
+                <h4 class="card-title">Delani Studio</h4>
+                <p class="card-text">A Web Application to understand better the concepts covered on JQuery Fuctions.</p>
+                <a href="https://sam2020-4.github.io/Delani-Studio/" type="button" class="btn btn-outline-secondary mr-0">view-link</a> 
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div> 
+    </div> 
+
+    <!-- Site footer -->
+    <footer class="site-footer" id="contact">
+      <div class="container">
         <div class="row">
-          <h1>skills</h1> 
-          <div class="column-skill">
-            <div class="content">
-              <img src="images/logo-2582748_640.png" alt="-icon">
-              <p>Hypertext Markup Language</p>
-            </div>
-          </div>
-          <div class="column-skill">
-            <div class="content">
-              <img src="images/images (1).png" alt="-icon">
-                <!-- <P>CSS</P> -->
-            </div>
-          </div>
-
-          <div class="column-skill">
-            <div class="content">
-              <img src="images/images.png" alt="-icon">
-              <P>Javascript</P>
-            </div>
-          </div>
-
-          <div class="column-skill">
-            <div class="content">
-              <img src="images/Adobe_Photoshop_CS5_icon.svg.png" alt="ps-icon">
-              <p>Adobe Photoshop</p>
-            </div>
+          <div class="col-md-6">
+            <h6>let's get in touch</h6>
+            <ul class="list-unstyled" style="padding-left:30px;">
+              <li><i class="fas fa-map-marker-alt mr-3"></i>Nairobi - kenya</li>            
+              <li><i class="far fa-envelope size:10x mr-3"></i>mattasamuel3@gmail.com</li>
+              <li><i class="fas fa-phone-volume mr-3"></i>+254 714 014 633</li>             
+            </ul>
           </div>
           
-          <div class="column-skill">
-            <div class="content">
-              <img src="images/vector-tool-tools-icon.png" alt="it-icon">
-              <P>IT Infrastructure</P>
-            </div>
-          </div>
+          <div class="col-md-6">
+            <h6 class="text-align">follow me</h6>            
+            <ul class="social-icons">
+              <li><a class="linkedin" href="https://www.linkedin.com/in/matta-samuel-96753818a/"><i class="fab fa-linkedin-in"></i></a></li>                
+              <li><a class="twitter" href="https://twitter.com/samuelmatta11"><i class="fab fa-twitter"></i></a></li>
+              <li><a class="github" href="https://github.com/sam2020-4"><i class="fab fa-github"></i></a></li>
+              <li><a class="facebook" href="https://www.facebook.com/samuel.matta.94"><i class="fab fa-facebook size:5x"></i></a></li>             
+            </ul>         
+          </div>         
         </div>
-        
-            <!-- projects here -->
-          <div class="projects" id="projects">
-            <h1>projects</h1>
-            <P>Below are some of projects I have developed with their active links.</P> 
-            <div class="prj-column">
-                <div class="prj-content">
-                  <img src="images/Screenshot-jamiicyberservices.png" alt="screensot-for-jamii-cyber">
-                    <hr>
-                      <h3>JAMII CYBER SERVICES</h3> <hr> <br>
-                        <p>This was a preprep project done for the fulfillment of the course. <br> It was developed to help people have fast access to cyber services.</p>
-                        <br>  
-                      <h3>Tools Used</h3> <br>
-                    <P>HTML, CSS , Javascript</P>  <br>          
-                  <button class="btn"><a href="https://sam2020-4.github.io/JamiiCyberProject/">view Website</a></button>
-                </div>
-            </div>
-            <div class="prj-column">
-                <div class="prj-content">
-                  <img src="images/pamaejitours.png" alt="screensot-for-pamameji-travels">
-                    <hr>
-                      <h3>PAMAMEJI TRAVELS</h3> <hr> <br>
-                        <p>This project was developed during classwork group collaboration on github whereby i designed about landing-page, the last week of pre-prep program. <br> the system was developed to help tourist and other customers have an access to different destinations.</p>
-                          <br>  
-                        <h3>Tools Used</h3>  
-                      <P>HTML ,<span>CSS</span> <SPAn>, Javascript</SPAn></P> 
-                  <button class="btn"><a href="https://amwata-albert.github.io/Pamameji-Travels/about.html">view Website</a></button>
-                </div>
-            </div>
-            <div class="prj-column">
-                <div class="prj-content">
-                   <img src="images/Screenshot from 2020-07-11 23-01-56.png" alt="screensot-for-pet-web">
-                      <hr>
-                        <h3>PET WEBSITE</h3> <hr> <br>
-                          <p>This is a website designed during PREP Program to show one's pet love. <br> </p><br>   
-                            <h3>Tools Used</h3>  <br>
-                        <P>HTML</P>  
-                      <P>CSS</P>
-                      <p>Javascript</p>     <br>          
-                    <button class="btn"><a href="https://sam2020-4.github.io/pet-web/">view Website</a></button>
-                </div>
-            </div>
+        <hr>
+      </div>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+            <a href="#">Matata Samuel</a>.
+            </p>
           </div>
 
-        <!-- footer here -->
-        <div class="footer" id="contact">
-          <h2>REACH ME THROUGH</h2>
-            <div id="footer-content">
-              <div id="cont"> 
-                  <P>+254 714 014 633</P>
-                  <P>mattasamuel3@gmail.com</P>
-              </div> 
-              <div id="cont"> 
-                <a href="https://facebook.com/" class="fa fa-facebook"></a>
-                   <a href="https://twitter.com/" class="fa fa-twitter"></a>
-                     <a href="www.linkedin.com/in/" class="fa fa-linkedin"></a>
-                <a href="https://instagram.com/" class="fa fa-instagram"></a>
-              </div> 
-            </div>          
-              <hr class="footer-hr">
-            <div class="copyright">
-                <p>Copyright © 2020 Matata Samuel portfolio || Terms and Conditions || All Rights Reserved</P>
-            </div>
-        </div> 
-        <script src="js/portfolio.js"></script>        
+          
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script> 
+    <script src="js/main.js"></script>        
   </body>
 </html>
